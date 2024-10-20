@@ -64,7 +64,7 @@ mvn clean install
 After building, run the Spring Boot application using the following command:
 
 ```bash
-java -jar target/demo-0.0.1-SNAPSHOT.jar
+java -jar target/api-v1.0.0.jar
 ```
 
 ### Step 7: Access the API
