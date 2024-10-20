@@ -292,3 +292,7 @@ If you face issues connecting to MySQL, ensure that MySQL is running and the cre
 ### 3. Log Configuration
 
 This project uses Log4j2 for logging. Log files will be generated in the `/logs` folder.
+
+## Changelog
+
+For a detailed changelog, see our [Wiki Changelog](https://github.com/ajaajahmad/UserManagemetAPI/wiki/Changelog).
