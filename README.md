@@ -84,15 +84,15 @@ http://localhost:8080
 | `/api/users`                | GET    | Retrieves a list of all users that are not soft-deleted.           |
 | `/api/users/{id}`           | GET    | Retrieves a user by their ID, provided they are not soft-deleted.  |
 | `/api/users/{id}`           | PUT    | Updates the details of a user by their ID.                         |
-| `/api/users/{id}`           | DELETE | Soft-deletes a user by setting a deletedAt timestamp.              |
-| `/api/users/status/{status}`| GET    | Retrieves a list of users based on their status (e.g., ACTIVE).    |
+| `/api/users/{id}`           | DELETE | Soft-deletes a user by setting a `deletedAt` timestamp.              |
+| `/api/users/status/{status}`| GET    | Retrieves a list of users based on their status (e.g., `ACTIVE`).    |
 
 ## API Documentation
 
 ### 1. Create a User
 
 - **URL**: `/api/register`
-- **Method**: POST
+- **Method**: `POST`
 - **Request Body**:
 
 ```json
@@ -124,7 +124,7 @@ http://localhost:8080
 ### 2. Login a User
 
 - **URL**: `/api/login`
-- **Method**: POST
+- **Method**: `POST`
 - **Request Body**:
 
 ```json
@@ -147,7 +147,7 @@ http://localhost:8080
 ### 3. Get All Users
 
 - **URL**: `/api/users`
-- **Method**: GET
+- **Method**: `GET`
 - **Description**: Retrieves a list of all users that are not soft-deleted.
 - **Response**:
 
@@ -173,7 +173,7 @@ http://localhost:8080
 ### 4. Get a User by ID
 
 - **URL**: `/api/users/{id}`
-- **Method**: GET
+- **Method**: `GET`
 - **Path Parameter**: `id` - The ID of the user.
 - **Description**: Retrieves a user by their ID, provided they are not soft-deleted.
 - **Response**:
@@ -199,7 +199,7 @@ http://localhost:8080
 ### 5. Update a User by ID
 
 - **URL**: `/api/users/{id}`
-- **Method**: PUT
+- **Method**: `PUT`
 - **Request Body**:
 
 ```json
@@ -224,9 +224,9 @@ http://localhost:8080
 ### 6. Soft-Delete a User by ID
 
 - **URL**: `/api/users/{id}`
-- **Method**: DELETE
+- **Method**: `DELETE`
 - **Path Parameter**: `id` - The ID of the user.
-- **Description**: Soft-deletes a user by setting a deletedAt timestamp instead of removing them from the database.
+- **Description**: Soft-deletes a user by setting a `deletedAt` timestamp instead of removing them from the database.
 - **Response**:
 
 ```json
@@ -238,8 +238,8 @@ http://localhost:8080
 ### 7. Get Users by Status
 
 - **URL**: `/api/users/status/{status}`
-- **Method**: GET
-- **Path Parameter**: `status` - The status of the users (e.g., ACTIVE, INACTIVE).
+- **Method**: `GET`
+- **Path Parameter**: `status` - The status of the users (e.g., `ACTIVE`, `INACTIVE`).
 - **Description**: Retrieves a list of users based on their status.
 - **Response**:
 
