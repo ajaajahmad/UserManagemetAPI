@@ -1,4 +1,3 @@
-User Management API
 # User Management API
 
 This API provides CRUD functionality for managing users, including user registration, login, and updates. It ensures secure handling of user data by validating unique emails and usernames.
