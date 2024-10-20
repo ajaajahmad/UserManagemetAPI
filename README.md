@@ -295,4 +295,4 @@ This project uses Log4j2 for logging. Log files will be generated in the `/logs`
 
 ## Changelog
 
-For a detailed changelog, see our [Wiki Changelog](https://github.com/yourusername/UserManagementAPI/wiki/Changelog).
+For a detailed changelog, see our [Wiki Changelog](https://github.com/ajaajahmad/UserManagemetAPI/wiki/Changelog).
