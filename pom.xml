@@ -11,10 +11,10 @@
 	</parent>
 
 	<groupId>com.app</groupId>
-	<artifactId>demo</artifactId>
-	<version>1.0.0</version>
-	<name>demo</name>
-	<description>DEMO CRUD API PROJECT</description>
+	<artifactId>api</artifactId>
+	<version>v1.0.0</version>
+	<name>api</name>
+	<description>a crud api app</description>
 
 	<properties>
 		<java.version>21</java.version>
