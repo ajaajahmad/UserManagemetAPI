@@ -27,7 +27,7 @@ cd UserManagementAPI
 Create a new MySQL database for the project.
 
 ```sql
-CREATE DATABASE user_management_db;
+CREATE DATABASE centralusers;
 ```
 
 Make sure you have a MySQL user with the necessary privileges to access the `centralusers` database.
