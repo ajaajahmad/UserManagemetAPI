@@ -30,14 +30,14 @@ Create a new MySQL database for the project.
 CREATE DATABASE user_management_db;
 ```
 
-Make sure you have a MySQL user with the necessary privileges to access the `user_management_db` database.
+Make sure you have a MySQL user with the necessary privileges to access the `centralusers` database.
 
 ### Step 3: Configure Application Properties
 
 Update the MySQL credentials in the `application.properties` file located at `src/main/resources/application.properties`:
 
 ```properties
-spring.datasource.url=jdbc:mysql://localhost:3306/user_management_db
+spring.datasource.url=jdbc:mysql://localhost:3306/centralusers
 spring.datasource.username=your_mysql_username
 spring.datasource.password=your_mysql_password
 ```
