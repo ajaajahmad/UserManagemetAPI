@@ -20,7 +20,7 @@ public class User {
     private String name;
 
     @NotBlank(message = "Username is required")
-    @Size(min = 3, max = 12, message = "Username must be between 3 and 12 characters")
+    @Size(min = 3, max = 20, message = "Username must be between 3 and 20 characters")
     @Pattern(regexp = "^(?!.*_\\s)[a-z0-9_]+$", message = "Username: lowercase, alphanumeric, underscores allowed; no underscores followed by spaces.")
     private String username;
 
