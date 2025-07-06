@@ -8,18 +8,21 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.app.api.logging.Log4j2;
 import com.app.api.service.UserService;
 
 @RestController
 @RequestMapping("/api")
 public class LoginController {
-
+	
+	Log4j2 logger;
+	
     @Autowired
     private UserService userService;
 
     @GetMapping("/login")
     public String loginPage() {
-        System.out.println("Accessing login page.");
+        logger.info("Accessing login page.");
         return "login";
     }
 
